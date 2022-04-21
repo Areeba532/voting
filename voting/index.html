@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            margin: 100px;
+            padding: 20px;
+            border: 2px solid black;
+            display: flex;
+        }
+        .img{
+           height: 400px;
+           width: 500px; 
+        }
+        .one{
+            width: 500px;
+        }
+        .two{
+            width: 600px;
+            padding: 20px;
+        }
+        .img2{
+            height: 150px;
+            width: 150px;
+            
+        }
+        .pic{
+            padding: 10px;
+            margin: 30px;
+            border-radius: 80px;
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form action="con.php" method="post">
+    <div class="main">
+        <div class="one"><img src="img.jpg" alt="point" class="img"></div>
+           <div class="two">
+               <h2 style="text-align: center">HERE YOU CAN VOTE YOUR AREA</h2><br>
+                 <div  style=" width: 580px; display: flex; ">
+                     <div><h3>Voting for PONE 5: </h3>Click the button to add your vote &nbsp;&nbsp;
+                                <input type="submit" value="click me" name="first"><br><br>
+                          <h3>Voting for PONE 7: </h3>Click the button to add your vote &nbsp;&nbsp;
+                                <input type="submit" value="click me" name="sec">
+                    </div>
+                                              &nbsp;&nbsp;&nbsp;
+                               <div class="pic"><img src="vote.jpg" alt="thumb" class="img2"></div>
+                </div>
+           </div>
+    </div>
+</form>
+</body>
+</html>
